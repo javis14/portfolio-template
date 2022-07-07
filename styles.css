@@ -89,6 +89,11 @@ body {
 .avatar-container img {
   height: 700px;
   width: auto;
+  transition: transform 0.2s linear;
+}
+
+.avatar-container img:hover{
+  transform: scale(1.01);
 }
 
 .avatar-container h3 {
