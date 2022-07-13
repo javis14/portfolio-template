@@ -220,12 +220,13 @@ footer {
   font-size: 18px;
 }
 
-.text-icons-container {
+.tech-icons-container {
   background-color: rgba(255, 255, 255, 0.801);
   border-radius: 5px;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   padding-top: 40px;
+
 }
 
 .tech-icon-list {
@@ -236,12 +237,12 @@ footer {
   padding: 0px 60px;
 }
 
-.tech-icon-end {
+.tech-icon-list-end {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
   justify-content: flex-start;
-} 
+}
 
 .tech-icon-item {
   display: flex;
@@ -259,6 +260,6 @@ footer {
 }
 
 span {
-  margin-top: 5px; 
-  color: var(--primary-color-dark)
+  margin-top: 5px;
+  color: var(--primary-color-dark);
 }
